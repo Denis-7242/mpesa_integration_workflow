@@ -24,26 +24,6 @@ class PaymentHeader extends StatelessWidget {
             color: Colors.grey,
           ),
         ),
-        const SizedBox(height: 16),
-        Container(
-          padding: const EdgeInsets.all(12),
-          decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
-            borderRadius: BorderRadius.circular(12),
-            border: Border.all(
-              color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.3),
-            ),
-          ),
-          child: const Text(
-            'Learn how Flutter communicates with a backend to initiate an M-PESA STK Push.',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 14,
-              color: Colors.grey,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-        ),
       ],
     );
   }

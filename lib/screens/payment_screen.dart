@@ -4,7 +4,6 @@ import '../widgets/phone_input.dart';
 import '../widgets/amount_input.dart';
 import '../widgets/payment_button.dart';
 import '../widgets/payment_status_card.dart';
-import '../widgets/learning_info_card.dart';
 import '../services/api_service.dart';
 import '../models/payment.dart';
 
@@ -157,8 +156,6 @@ class _PaymentScreenState extends State<PaymentScreen> {
                 status: _status,
                 payment: _payment,
               ),
-              const SizedBox(height: 32),
-              const LearningInfoCard(),
             ],
           ),
         ),
